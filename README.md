@@ -3,6 +3,6 @@ Desenvolvimento de um projeto de gestão de vagas
 
 <h1>Autores:</h1>
 
-Marcio Rodrigues
-Rafael Dias de Souza
-Emanueli Barra
+<p>Marcio Rodrigues</p>
+<p>Rafael Dias de Souza</p>
+<p>Emanueli Barra</p>
