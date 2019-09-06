@@ -1,8 +1,8 @@
-<h1>Projeto Estaciona Tatui</h1>
+#Projeto Estaciona Tatui
 Desenvolvimento de um projeto de gestão de vagas
 
-<h2>Autores:</h2>
+#Autores:
 
-<p>Marcio Rodrigues</p>
-<p>Rafael Dias de Souza</p>
-<p>Emanueli Barra</p>
+Marcio Rodrigues
+Rafael Dias de Souza
+Emanueli Barra
