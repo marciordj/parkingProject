@@ -1,0 +1,62 @@
+html,body{
+    height: 100%
+}
+body{
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    background: #e35144;
+    color: white;
+}
+
+.headerContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputEmail{
+    width: 250px;
+    margin-top: 5px;
+}
+
+.inputPassword{
+    width: 250px;
+    margin-top: 5px;
+}
+
+.loginButton{
+    width: 250px;
+    margin-top: 20px;
+    background: #e35144;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+.loginButton:hover{
+    background: #c73528;
+    border: #c73528;
+}
+
+.backButton{
+    width: 150px;
+    margin-top: 20px;
+    background: #e35144;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+.backButton:hover{
+    background: #c73528;
+    border: #c73528;
+}
+
+.footerContainer{
+    display: flex;
+    justify-content: center;
+}
