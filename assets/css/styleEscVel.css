@@ -34,9 +34,21 @@ body{
     border: #c73528;
 }
 
-.buttonNewCar{
+.buttonUseCar{
     width: 200px;
     margin-top: 10px;
+    background: #E35144;
+    border: 1px solid white;
+}
+
+.buttonUseCar:hover{
+    background: #c73528;
+    border: #c73528;
+}
+
+.buttonNewCar{
+    width: 200px;
+    margin-top: 150px;
     background: #E35144;
     border: 1px solid white;
 }
