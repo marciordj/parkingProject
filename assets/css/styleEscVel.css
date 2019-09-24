@@ -1,0 +1,47 @@
+html, body{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    font-family: 'Montserrat', sans-serif;
+    background: #E35144;
+    color: white;
+}
+
+.headerContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttonCar{
+    width: 200px;
+    margin-top: 50px;
+    background: #E35144;
+    border: 1px solid white;
+}
+
+.buttonCar:hover{
+    background: #c73528;
+    border: #c73528;
+}
+
+.buttonNewCar{
+    width: 200px;
+    margin-top: 10px;
+    background: #E35144;
+    border: 1px solid white;
+}
+
+.buttonNewCar:hover{
+    background: #c73528;
+    border: #c73528;
+}
