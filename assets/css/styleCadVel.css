@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    background: #E35144;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.btnSubmit{
+    width: 100px;
+    background: #E35144;
+    border: 1px solid #fff;
+}
+
+.btnBack{
+    margin-top: 50px;
+    background: #E35144;
+    border: 1px solid #fff;
+}
