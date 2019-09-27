@@ -4,7 +4,7 @@ html,body{
 body{
     display: flex;
     flex-direction: column;
-    padding-top: 100px;
+    margin-top: 100px;
     background: #e35144;
     color: white;
     font-family: 'Montserrat', sans-serif;

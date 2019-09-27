@@ -5,7 +5,7 @@ html, body{
 body{
     display: flex;
     flex-direction: column;
-    padding-top: 100px;
+    margin-top: 100px;
     background: #E35144;
     color: #fff;
     font-family: 'Montserrat', sans-serif;
