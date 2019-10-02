@@ -3,7 +3,7 @@ body{
     flex-direction: column;
     align-items: center;
     margin-top: 100px;
-    background: #E35144;
+    background: #0000ff;
     color: #fff;
     font-family: 'Montserrat', sans-serif;
 }
@@ -11,12 +11,10 @@ body{
 
 .btnSubmit{
     width: 100px;
-    background: #E35144;
     border: 1px solid #fff;
 }
 
 .btnBack{
     margin-top: 50px;
-    background: #E35144;
     border: 1px solid #fff;
 }

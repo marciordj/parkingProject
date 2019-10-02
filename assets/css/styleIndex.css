@@ -6,7 +6,7 @@ body{
     display: flex;
     flex-direction: column;
     padding-top: 100px;
-    background: #E35144;
+    background: #0000ff;
     color: #fff;
     font-family: 'Montserrat', sans-serif;
 }
@@ -25,27 +25,16 @@ body{
 .buttonLogin{
     width: 200px;
     margin-top: 50px;
-    background: #E35144;
     border: 1px solid white;
     border-radius: 20px;
 }
 
-.buttonLogin:hover{
-    background: #c73528;
-    border: #c73528;
-}
 
 .buttonRegister{
     width: 200px;
     margin-top: 10px;
-    background: #E35144;
     border: 1px solid white;
     border-radius: 20px;
-}
-
-.buttonRegister:hover{
-    background: #c73528;
-    border: #c73528;
 }
 
 .footerContainer{
@@ -56,13 +45,7 @@ body{
 
 .buttonNewUser{
     width: 150px;
-    background: #E35144;
-    border: 1px solid white;
     border-radius: 20px;
     color: white;
 }
 
-.buttonNewUser:hover{
-    background: #c73528;
-    border: #c73528;
-}
