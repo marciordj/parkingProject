@@ -29,6 +29,13 @@ main{
     margin-top: 20px;
 }
 
+.imgLocal img{
+    width: 300px;
+    height: 200px;
+    margin-top: 10px;
+    border: solid 1px white;
+}
+
 .btnRua{
     width: 200px;
     margin-top: 20px;
