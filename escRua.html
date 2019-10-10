@@ -1,7 +1,6 @@
 <!doctype html>
 <html lang="pt-br">
   <head>
-    <title>Title</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -14,6 +13,8 @@
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 
+    <title>EstacionaTatui</title>
+
 
   </head>
   <body>
@@ -23,19 +24,21 @@
         </div>
     </header>
     <main>
-        <select class="form-control selectLocal" name="id_curso" id="id_curso">
-          <option>Selecione o Setor</option>
-        </select> 
-        <select class="form-control selectLocal" name="id_curso" id="id_curso">
-            <option>Selecione a Rua</option>
-        </select> 
-        <select class="form-control selectLocal" name="id_curso" id="id_curso">
-            <option>Selectione a Quadra</option>
-        </select>
-        <div class="imgLocal">
-          <img src="./assets/img/testeRua.png">
-        </div>
-        <button type="submit" class="btn btn-primary btn-lg btnRua">Confirmar Local</button>
+        <form method="POST">
+          <select class="form-control selectLocal" name="id_curso" id="id_curso">
+            <option>Selecione o Setor</option>
+          </select> 
+          <select class="form-control selectLocal" name="id_curso" id="id_curso">
+              <option>Selecione a Rua</option>
+          </select> 
+          <select class="form-control selectLocal" name="id_curso" id="id_curso">
+              <option>Selectione a Quadra</option>
+          </select>
+          <div class="imgLocal" name="imgLocal">
+            <img src="./assets/img/testeRua.png">
+          </div>
+          <button type="submit" class="btn btn-primary btn-lg btnRua">Confirmar Local</button>
+        </form>
     </main>
 
 
