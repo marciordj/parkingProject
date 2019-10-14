@@ -5,7 +5,6 @@ Desenvolvimento de um projeto de gestão de vagas
 
 <p>Marcio Rodrigues</p>
 <p>Rafael Dias de Souza</p>
-<p>Emanueli Barra</p>
 
 
 
