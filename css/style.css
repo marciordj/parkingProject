@@ -20,6 +20,11 @@ body {
   align-items: center;
 }
 
+.defaultStyle h4 {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
 .defaultBtn {
   width: 250px;
   background: #0000ff;
