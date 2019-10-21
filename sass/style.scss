@@ -2,6 +2,7 @@ $cor-principal: #0000ff;
 $cor-fonte-primaria: #fff;
 $btn-cor: #0000ff;
 
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
 html, body{ 
     height: 100%;
@@ -15,6 +16,7 @@ body{
     padding-top: 100px;
     background: $cor-principal;
     color: $cor-fonte-primaria;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .defaultStyle{
@@ -24,15 +26,27 @@ body{
 }
 
 .defaultBtn{
-    width: 200px;
+    width: 250px;
     background: $btn-cor;
     border: 1px solid white;
     border-radius: 20px;
     margin-top: 20px;
 }
 
+.defaultBtnSm {
+    width: 150px;
+    margin-top: 20px;
+    background: $btn-cor;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
 .footerBtn{
     margin-top: 200px;
     color: $cor-fonte-primaria;
     border-radius: 20px;
+}
+
+.inputLog {
+    margin-top: 30px;
 }
