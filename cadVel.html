@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="/bootstrap/css/bootstrap.min.css">
+
+    <!-- css -->
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+
+
+
+    <title>EstacionaTatui</title>
+</head>
+<body>
+    <div class="container defaultStyle">
+        <h2>Cadastre Seu Veículo</h2>
+
+        <form action="" method="POST" enctype="multipart/form-data">
+            <label for="veicModelo">Tipo do Veículo</label>
+            <input type="text" class="form-control shadow-none" name="tipo" placeholder="Digite o tipo">
+            <label for="marcaVeiculo">Marca do Veículo</label>
+            <input type="text" class="form-control shadow-none" name="marca" placeholder="Digite a Marca">
+            <label for="modelVeiculo">Modelo do Veículo</label>
+            <input type="text" class="form-control shadow-none" name="modelo" placeholder="Digite o modelo">
+            <label for="placaVeiculo">Placa do veículo</label>
+            <input type="text" class="form-control shadow-none" name="placa" placeholder="Digite a placa">
+            <label for="corVeiculo">Cor do Veículo</label>
+            <input type="text" class="form-control shadow-none" placeholder="Digite a cor">
+            <label for="fotoVeiculo">Foto do veículo</label>
+            <input type="file" class="form-control-file" id="fileFoto" name="fileFoto">
+            <button type="submit" class="btn btn-primary defaultBtnSm">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>
